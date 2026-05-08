@@ -1,0 +1,262 @@
+/* Page background */
+body {
+  background-color: #f9f9f9; /* light grey */
+  font-family: Arial, sans-serif;
+}
+
+/* Hero section (Home page header) */
+.hero {
+  background-color: #7507c4; /* purple */
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+h1, h2 {
+  color: #161515; /* deep indigo */
+}
+
+p {
+  color: #131212; /* dark grey for readability */
+}
+nav {
+  background-color: #6a0dad; /* purple bar */
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700; /* gold when hovered */
+}
+button {
+  background-color: #6a0dad; /* purple */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b0082; /* darker purple */
+}
+#taskList li {
+  background: #f4f4f4;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#taskList li.completed {
+  background: #d4edda; /* light green */
+  color: #155724; /* dark green text */
+  text-decoration: line-through;
+}
+section img {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+}
+.news {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.news h2 {
+  color: #6a0dad;
+}
+
+.news article {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-left: 4px solid #6a0dad;
+  background: #fff;
+}
+section {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+section h2 {
+  color: #6a0dad;
+  margin-bottom: 10px;
+}
+
+section ul {
+  margin-left: 20px;
+}
+.motivation-message {
+  background-color: #6a0dad; /* NWU purple */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.motivation-message h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.motivation-message p {
+  font-style: italic;
+  font-size: 1.2em;
+}
+.contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.contact h2 {
+  color: #6a0dad;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li {
+  margin: 8px 0;
+}
+
+.contact-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4b0082;
+}
+.contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.contact h2 {
+  color: #6a0dad;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li {
+  margin: 8px 0;
+}
+
+.contact-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4b0082;
+}.graph-section {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.graph-section h2 {
+  text-align: center;
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+.impact-section {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.impact-section h2 {
+  text-align: center;
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+.impact-percentages {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.impact-percentages h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+.impact-percentages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.impact-percentages li {
+  margin: 8px 0;
+  font-weight: bold;
+}

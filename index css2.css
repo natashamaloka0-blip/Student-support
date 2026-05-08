@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav {
+  background: #4b2e83;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+
+button {
+  background: #4b2e83;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.features ul {
+  display: flex;
+  gap: 20px;
+}
+
+.accordion-btn {
+  background: #eee;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #ddd;
+  height: 20px;
+}
+
+#progressFill {
+  width: 0%;
+  height: 100%;
+  background: #4b2e83;
+}

@@ -1,0 +1,68 @@
+  <a href="planner.html">Planner</a>
+<a href="planner.html">Planner</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="planner.html">Planner</a>
+    <a href="tips.html">Study Tips</a>
+    <a href="progress.html">Progress</a>
+  </nav>
+
+  <h1>Task Planner</h1>
+  <form id="taskForm">
+    <input type="text" id="taskName" placeholder="Task name" required>
+    <input type="date" id="taskDate" required>
+    <select id="taskPriority">
+      <option>High</option>
+      <option>Medium</option>
+      <option>Low</option>
+    </select>
+    <button type="submit">Add Task</button>
+  </form>
+
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<h2>Plan Your Tasks</h2>
+<p>Add tasks with deadlines and priorities. Mark them complete when finished or delete them if no longer needed.</p>
+
+<form id="taskForm">
+  <input type="text" id="taskName" placeholder="Task name" required>
+  <input type="date" id="taskDate" required>
+  <select id="taskPriority">
+    <option>High</option>
+    <option>Medium</option>
+    <option>Low</option>
+  </select>
+  <button type="submit">Add Task</button>
+</form>
+
+<ul id="taskList"></ul>
+<section class="planner-info">
+  <h2>How to Use the Planner</h2>
+  <p>Enter your task name, select a due date, and choose a priority level. Once added, tasks will appear in your list below. You can:</p>
+  <ul>
+    <li>✅ Mark tasks as complete when finished</li>
+    <li>❌ Delete tasks you no longer need</li>
+    <li>📅 Sort tasks by date or priority (coming soon)</li>
+  </ul>
+  <p>This planner helps you stay organised and avoid last-minute stress.</p>
+</section>
+
+<section class="planner-tips">
+  <h2>Planner Best Practices</h2>
+  <p>✔ Break large assignments into smaller tasks<br>
+     ✔ Always set realistic deadlines<br>
+     ✔ Use High priority for urgent work, Medium for regular tasks, and Low for optional activities</p>
+</section>
+

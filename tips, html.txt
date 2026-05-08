@@ -1,0 +1,33 @@
+  <a href="tips.html">Study Tips</a>
+<a href="tips.html">Study Tips</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Tips</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="planner.html">Planner</a>
+    <a href="tips.html">Study Tips</a>
+    <a href="progress.html">Progress</a>
+  </nav>
+
+  <h1>Study Tips & Time Management</h1>
+  <div class="accordion">
+    <button class="accordion-btn">Pomodoro Technique</button>
+    <div class="accordion-content"><p>Work for 25 minutes, rest for 5 minutes.</p></div>
+
+    <button class="accordion-btn">Active Recall</button>
+    <div class="accordion-content"><p>Test yourself instead of rereading notes.</p></div>
+
+    <button class="accordion-btn">Time Blocking</button>
+    <div class="accordion-content"><p>Schedule fixed times for study and breaks.</p></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
